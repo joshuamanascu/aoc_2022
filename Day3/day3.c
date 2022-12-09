@@ -8,7 +8,7 @@ int priorityCommonTriple(char*, char*, char*);
 
 int main(int argc, char *argv[]) {
 	
-	char *filename = "";
+	char *filename;
 	
 	if (argc == 2) {
 		filename = argv[1];
