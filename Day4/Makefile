@@ -5,7 +5,7 @@ SOURCES = day4.c
 OBJS = day4.o
 HEADERS =
 
-dice: $(OBJS)
+day4: $(OBJS)
 	$(CC) $(CFLAGS) -o day4 $(OBJS)
 
 $(OBJS): $(SOURCES) $(HEADERS)
