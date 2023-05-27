@@ -1,0 +1,31 @@
+[V]     [B]                     [F]
+[N] [Q] [W]                 [R] [B]
+[F] [D] [S]     [B]         [L] [P]
+[S] [J] [C]     [F] [C]     [D] [G]
+[M] [M] [H] [L] [P] [N]     [P] [V]
+[P] [L] [D] [C] [T] [Q] [R] [S] [J]
+[H] [R] [Q] [S] [V] [R] [V] [Z] [S]
+[J] [S] [N] [R] [M] [T] [G] [C] [D]
+ 1   2   3   4   5   6   7   8   9 
+
+move 1 from 2 to 7
+move 13 from 1 to 2
+move 2 from 3 to 1
+move 4 from 7 to 5
+move 3 from 9 to 4
+move 1 from 1 to 8
+move 4 from 5 to 2
+move 12 from 6 to 2
+move 3 from 1 to 3
+move 1 from 4 to 1
+move 9 from 8 to 5
+move 6 from 5 to 7
+move 2 from 4 to 5
+move 5 from 9 to 6
+move 5 from 3 to 7
+move 30 from 2 to 6
+move 11 from 7 to 9
+move 36 from 6 to 3
+move 10 from 9 to 3
+move 1 from 6 to 5
+move 3 from 5 to 2
