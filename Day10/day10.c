@@ -40,17 +40,21 @@ void partTwo(FILE *fp) {
 		for (int i = 0; i < change; i++) {
 			
 			
+			if (abs((cycle - 1) % 40 - X) <= 1) row[(cycle - 1) % 40] = '#';
+			else row[(cycle - 1) % 40] = '.';
+			
+			if (cycle % 40 == 0) {
+				printf("%s\n", row);
+				memset(row, 0, 41);
+			}
+			
+			
 			if (i == 1) {
 				int add;
 				sscanf(buffer, "addx %d", &add);
 			
 				X += add;
 			}
-			
-			if (abs(cycle % 40 - X) <= 1) row[cycle % 40] = '#';
-			else row[cycle % 40] = '.';
-			
-			if (cycle % 40 == 0) printf("%s\n", row);
 			
 			cycle++;
 			
